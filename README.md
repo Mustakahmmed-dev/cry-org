@@ -1,0 +1,5 @@
+<!-- Theme Color Pallete:
+#071952
+#088395
+#37B7C3
+#EBF4F6 -->
