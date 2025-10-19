@@ -33,7 +33,7 @@ const Hero = () => {
                             href="/about"
                             className="bg-black/70 border border-white hover:bg-[#058610] text-white px-6 py-3 font-semibold transition-all"
                         >
-                            Learn More
+                            Support us
                         </Link>
                     </div>
                 </div>
