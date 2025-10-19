@@ -2,7 +2,7 @@
 const AboutSection = () => {
     return (
         <section className="bg-gray-50 py-16">
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 px-4">
+            <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10 px-4">
 
                 {/* Image in left side */}
                 <div className="w-full md:w-1/2">
