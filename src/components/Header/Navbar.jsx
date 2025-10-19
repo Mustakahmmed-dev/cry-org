@@ -127,7 +127,7 @@ const Navbar = () => {
   );
 
   return (
-    <header className="w-full fixed top-0 left-0 bg-[#058610] md:bg-white shadow-md z-50">
+    <header className="w-full sticky top-0 left-0 bg-[#058610] md:bg-white shadow-md z-50">
       <nav className="max-w-7xl mx-auto p-2 md:p-3 flex justify-between items-center">
         {/* Left section */}
         <div className="flex gap-1 md:gap-2 items-center">
@@ -140,13 +140,13 @@ const Navbar = () => {
           </button>
 
           {/* Logo */}
-          <div className="h-14 hidden md:block">
+          <a href="/" className="h-14 hidden md:block">
             <img
               src="/logo.jpeg"
               className="h-full"
               alt="CRY Organization logo"
             />
-          </div>
+          </a>
           <h2 className="text-white md:text-gray-900 font-semibold text-sm md:text-base">
             CRY Organization
           </h2>
