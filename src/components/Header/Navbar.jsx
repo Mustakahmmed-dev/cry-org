@@ -6,6 +6,7 @@ import Link from "next/link";
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
+  const [projectsOpen, setProjectsOpen] = useState(false);
   const drawerRef = useRef(null);
 
   // Drawer accessibility and close-on-click handling
@@ -35,12 +36,12 @@ const Navbar = () => {
 
   const desktopLinks = (
     <>
-      <li><Link href="/">Home</Link></li>
+      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Home</Link></li>
 
-      <li className="relative group">
+      <li className="relative group hover:text-red-500 hover:font-semibold">
         <button
           type="button"
-          className="dropdown-toggle border flex items-center cursor-pointer"
+          className="dropdown-toggle flex items-center cursor-pointer"
         >
           About <ChevronDown className="ml-1 group-hover:hidden" />
           <ChevronUp className="ml-1 hidden group-hover:block" />
@@ -53,7 +54,21 @@ const Navbar = () => {
         </ul>
       </li>
 
-      <li><Link href="/">Projects</Link></li>
+      <li className="relative group hover:text-red-500 hover:font-semibold">
+        <button
+          type="button"
+          className="dropdown-toggle flex items-center cursor-pointer"
+        >
+          Projects <ChevronDown className="ml-1 group-hover:hidden" />
+          <ChevronUp className="ml-1 hidden group-hover:block" />
+        </button>
+        <ul className="absolute hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 rounded">
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Education</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Social Awareness</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Rohingya Curriculum</Link></li>
+        </ul>
+      </li>
+
       <li><Link href="/">News</Link></li>
       <li><Link href="/">Gallery</Link></li>
       <li><Link href="/">Contact</Link></li>
@@ -82,6 +97,25 @@ const Navbar = () => {
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Projects</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Team</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Events</Link></li>
+        </ul>
+      </li>
+      <li className="relative">
+        <button
+          onClick={() => setProjectsOpen(!projectsOpen)}
+          type="button"
+          className="dropdown-toggle flex items-center justify-between w-full cursor-pointer"
+        >
+          Projects
+          {projectsOpen ? <ChevronUp /> : <ChevronDown />}
+        </button>
+        <ul
+          className={`flex flex-col mt-2 bg-gray-100 rounded overflow-hidden transition-all duration-200 ${
+            projectsOpen ? "max-h-96" : "max-h-0"
+          }`}
+        >
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Education</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Social Awareness</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Rohingya Zuban</Link></li>
         </ul>
       </li>
 
