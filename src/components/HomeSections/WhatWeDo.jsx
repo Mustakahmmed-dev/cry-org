@@ -16,7 +16,7 @@ const WhatWeDo = () => {
 
                     {/* Card 1 */}
                     <div className="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
-                        <img src="/images/education-icon.png" alt="Education" className="w-12 mx-auto mb-4" />
+                        <img src="/icons/educationIcon.png" alt="Education" className="w-12 mx-auto mb-4" />
                         <h3 className="text-xl font-semibold mb-2">Education & Training</h3>
                         <p className="text-gray-600">
                             We organize learning centers and digital training for youth and
@@ -26,7 +26,7 @@ const WhatWeDo = () => {
 
                     {/* Card 2 */}
                     <div className="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
-                        <img src="/images/rights-icon.png" alt="Human Rights" className="w-12 mx-auto mb-4" />
+                        <img src="/icons/human-rights.png" alt="Human Rights" className="w-12 mx-auto mb-4" />
                         <h3 className="text-xl font-semibold mb-2">Human Rights Advocacy</h3>
                         <p className="text-gray-600">
                             We raise awareness and advocate for the rights and dignity of Rohingya
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
 
                     {/* Card 3 */}
                     <div className="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
-                        <img src="/images/community-icon.png" alt="Community Support" className="w-12 mx-auto mb-4" />
+                        <img src="/icons/social-community.png" alt="Community Support" className="w-12 mx-auto mb-4" />
                         <h3 className="text-xl font-semibold mb-2">Community Support</h3>
                         <p className="text-gray-600">
                             From blood donations to emergency response, we support community needs

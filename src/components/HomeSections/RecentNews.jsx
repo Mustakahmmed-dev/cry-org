@@ -9,7 +9,7 @@ const RecentNews = () => {
       date: "October 15, 2025",
       excerpt:
         "Comrades of Rohingya Youth launched a new community-based education initiative to support children and adult learners in the refugee camps.",
-      image: "/images/news1.jpg",
+      image: "/images/educationTeaching.jpg",
       slug: "/news/education-drive",
     },
     {
@@ -17,7 +17,7 @@ const RecentNews = () => {
       date: "September 28, 2025",
       excerpt:
         "Our volunteer network organized a major blood donation event to save lives across the camps, drawing participation from hundreds of youths.",
-      image: "/images/news2.jpg",
+      image: "/images/bloodDonation.jpg",
       slug: "/news/blood-donation",
     },
     {
@@ -25,7 +25,7 @@ const RecentNews = () => {
       date: "August 20, 2025",
       excerpt:
         "Environmental awareness programs led by young volunteers have brought lasting change in cleanliness and waste management across several blocks.",
-      image: "/images/news3.jpg",
+      image: "/images/cleanUpCampaign.jpg",
       slug: "/news/cleanup-campaign",
     },
   ];

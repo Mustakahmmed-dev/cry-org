@@ -17,7 +17,7 @@ const OngoingProjects = () => {
                     <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
                         <div className="overflow-hidden">
                             <img
-                                src="/images/project-education.jpg"
+                                src="/images/educationForAll.jpg"
                                 alt="Education for All"
                                 className="w-full h-56 object-cover hover:scale-105 transition-transform duration-300"
                             />
@@ -32,7 +32,7 @@ const OngoingProjects = () => {
                                 href="#"
                                 className="text-[#058610] font-medium hover:underline"
                             >
-                                Learn More →
+                                Learn More
                             </a>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const OngoingProjects = () => {
                     <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
                         <div className="overflow-hidden">
                             <img
-                                src="/images/project-health.jpg"
+                                src="/images/healthHygiene.jpg"
                                 alt="Health & Hygiene"
                                 className="w-full h-56 object-cover hover:scale-105 transition-transform duration-300"
                             />
@@ -56,7 +56,7 @@ const OngoingProjects = () => {
                                 href="#"
                                 className="text-[#058610] font-medium hover:underline"
                             >
-                                Learn More →
+                                Learn More
                             </a>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ const OngoingProjects = () => {
                     <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
                         <div className="overflow-hidden">
                             <img
-                                src="/images/project-youth.jpg"
+                                src="/images/youthEmpowerment.jpg"
                                 alt="Youth Empowerment"
                                 className="w-full h-56 object-cover hover:scale-105 transition-transform duration-300"
                             />
@@ -80,7 +80,7 @@ const OngoingProjects = () => {
                                 href="#"
                                 className="text-[#058610] font-medium hover:underline"
                             >
-                                Learn More →
+                                Learn More
                             </a>
                         </div>
                     </div>
