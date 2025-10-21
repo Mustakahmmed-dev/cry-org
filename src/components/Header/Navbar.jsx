@@ -147,7 +147,7 @@ const Navbar = () => {
               alt="CRY Organization logo"
             />
           </a>
-          <h2 className="text-white md:text-gray-900 font-semibold text-sm md:text-base">
+          <h2 className="text-white md:text-gray-900 font-semibold text-base">
             CRY Organization
           </h2>
         </div>
@@ -159,12 +159,10 @@ const Navbar = () => {
 
         {/* Right section */}
         <div className="flex flex-col gap-2">
-          <ul className="flex gap-2 justify-end text-gray-200 md:text-[#071952] text-xs">
-            <li><Link href="/">Press</Link></li>
-            <li><Link href="/">Join Us</Link></li>
+          <ul className="flex gap-2 justify-end text-gray-200 md:text-[#071952] ">
             <li><Link href="/">Login</Link></li>
             <li><Link href="/">Donate</Link></li>
-            <Search size={20} className="md:text-gray-500" />
+            <Search size={25} className="md:text-gray-500" />
           </ul>
           <ul className="hidden md:flex lg:hidden gap-4 text-gray-100 md:text-gray-700">
             {desktopLinks}
