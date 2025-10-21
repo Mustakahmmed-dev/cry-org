@@ -4,12 +4,15 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const programs = [
-    'Blood Donor Summit',
-    'International Young School',
-    'Emergency Services',
-    'Child Protection',
-    'Women\'s Empowerment',
-    'Climate Justice'
+    {title: "Blood Donation", href: "blood-donation"},
+    {title: "International Young School", href: "international-young-school"},
+    {title: "Emergency Services", href: "emergency-services"},
+    {title: "Child Protection", href: "child-protection"},
+    {title: "Women's Empowerment", href: "womens-rights"},
+    {title: "Climate Change & Human Rights Justice", href: "climate-change-human-rights-justice"},
+    {title: "Advocacy & Justice", href: "advocacy-justice"},
+    {title: "Research", href: "research"}
+   
   ]
 
   const quickLinks = [
@@ -65,7 +68,7 @@ export default function Footer() {
                 <img src="/logo.jpeg" className="h-full rounded-full " alt="CRY Logo" />
               </div>
               <div>
-                <h2>CRY Organization</h2>
+                <h2>CRY Humanitarian</h2>
               </div>
               </div>
                  
@@ -110,10 +113,10 @@ export default function Footer() {
               {programs.map((program, index) => (
                 <li key={index}>
                   <a 
-                    href="#programs"
+                    href={program?.href}
                     className="text-slate-400 hover:text-emerald-500 transition-colors text-sm inline-block hover:translate-x-1 duration-200"
                   >
-                    {program}
+                    {program?.title}
                   </a>
                 </li>
               ))}
@@ -134,13 +137,15 @@ export default function Footer() {
                   </a>
                 </li>
               ))}
+              <li><a 
+                    href="/donate"
+                    className="text-emerald-500 transition-colors text-base hover:font-semibold inline-block hover:translate-x-1 duration-200"
+                  >
+                    Donate Us
+                  </a>
+                </li>
             </ul>
-
-            {/* Call to Action */}
-            <button className="w-full rounded-full p-2 bg-[#058610] hover:bg-emerald-700 text-white font-medium">
-              Donate Now
-            </button>
-          </div>
+        </div>
         </div>
 
       </div>
@@ -210,7 +215,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-3 text-xs text-slate-600">
             <span className="flex items-center space-x-1.5">
               <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-              <span>Registered NGO</span>
+              <span>Refugee Led NGO</span>
             </span>
             <span className="hidden sm:inline">•</span>
             <span className="flex items-center space-x-1.5">
