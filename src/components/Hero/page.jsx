@@ -24,13 +24,13 @@ const Hero = () => {
 
                     <div className="flex flex-wrap gap-4">
                         <Link
-                            href="/projects"
+                            href="/our-programs"
                             className="bg-[#058610] hover:bg-transparent hover:border text-white px-6 py-3 font-semibold transition-all"
                         >
-                            Our Projects
+                            Our Programs
                         </Link>
                         <Link
-                            href="/about"
+                            href="/donate-us"
                             className="bg-black/70 border border-white hover:bg-[#058610] text-white px-6 py-3 font-semibold transition-all"
                         >
                             Support us

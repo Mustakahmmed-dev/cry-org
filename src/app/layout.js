@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Header/Navbar";
 import Footer from "@/components/Footer/Footer";
+import { ArrowUp } from "lucide-react";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -25,6 +26,9 @@ export default function RootLayout({ children }) {
 
         {children}
 
+          <a href="#" className="bottom-3 right-3 fixed bg-red-600 p-3 text-white rounded-full">
+            <ArrowUp />
+          </a>
         <Footer />
       </body>
     </html>
