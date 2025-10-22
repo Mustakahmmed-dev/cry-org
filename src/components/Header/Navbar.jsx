@@ -7,6 +7,7 @@ const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
   const [programsOpen, setProgramsOpen] = useState(false);
+  const [newsOpen, setNewsOpen] = useState(false);
   const drawerRef = useRef(null);
 
   // Drawer accessibility and close-on-click handling
@@ -86,8 +87,7 @@ const Navbar = () => {
         <ul className="absolute hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 rounded">
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Latest News </Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Press Releases </Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Public Statements</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Events & Summits</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Photos Gallery</Link></li>
         </ul>
       </li>
      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
@@ -143,11 +143,26 @@ const Navbar = () => {
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Research</Link></li>
         </ul>
       </li>
-
-      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Projects</Link></li>
-      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">News</Link></li>
-      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Gallery</Link></li>
-      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
+      <li className="relative">
+        <button
+          onClick={() => setNewsOpen(!newsOpen)}
+          type="button"
+          className="dropdown-toggle flex items-center justify-between w-full cursor-pointer hover:text-red-500 hover:font-semibold"
+        >
+          News & Media
+          {newsOpen ? <ChevronUp /> : <ChevronDown />}
+        </button>
+        <ul
+          className={`flex flex-col mt-2 bg-gray-100 rounded overflow-hidden transition-all duration-200 ${
+            newsOpen ? "max-h-96" : "max-h-0"
+          }`}
+        >
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100"> Latest News</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Press Releases</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Photos Gallery</Link></li>
+        </ul>
+      </li>
+      <li><Link href="/contact" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
     </>
   );
 

@@ -7,7 +7,6 @@ const inter = Inter({
   subsets: ['latin'],
 })
 
-
 export const metadata = {
   title: "Comrades of Rohingya Youth",
   description: "Comrades of Rohingya Youth is Rohingya youths led Not for profit organization.",
