@@ -67,7 +67,7 @@ const RecentNews = () => {
                   href={post.slug}
                   className="text-[#058610] text-sm font-medium hover:underline"
                 >
-                  Read More →
+                  Read More
                 </Link>
               </div>
             </div>
@@ -80,7 +80,7 @@ const RecentNews = () => {
             href="/news"
             className="bg-[#058610] text-white px-6 py-3 rounded-md hover:bg-[#046a0d] transition"
           >
-            View All News
+            Read More News
           </Link>
         </div>
       </div>

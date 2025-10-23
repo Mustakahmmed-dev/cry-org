@@ -24,7 +24,7 @@ const AboutSection = () => {
                         education, advocacy, and humanitarian service. We strive to build hope,
                         dignity, and opportunity for all displaced Rohingya families.
                     </p>
-                    <a href="/about-us" className="bg-[#058610] text-white px-6 py-3 rounded-md hover:bg-black transition-all">
+                    <a href="/who-we-are" className="bg-[#058610] text-white px-6 py-3 rounded-md hover:bg-black transition-all">
                         Read More
                     </a>
                 </div>
