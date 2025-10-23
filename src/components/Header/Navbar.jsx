@@ -47,7 +47,7 @@ const Navbar = () => {
           About <ChevronDown className="ml-1 group-hover:hidden" />
           <ChevronUp className="ml-1 hidden group-hover:block" />
         </button>
-        <ul className="absolute hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 rounded">
+        <ul className="absolute text-sm hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 rounded">
           <li><Link href="/who-we-are" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Who We Are</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Leadership</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Global Presences</Link></li>
@@ -55,7 +55,7 @@ const Navbar = () => {
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Annual Reports</Link></li>
         </ul>
       </li>
-
+      {/* Programs */}
       <li className="relative group hover:text-red-500 hover:font-semibold">
         <button
           type="button"
@@ -64,15 +64,16 @@ const Navbar = () => {
           Programs <ChevronDown className="ml-1 group-hover:hidden" />
           <ChevronUp className="ml-1 hidden group-hover:block" />
         </button>
-        <ul className="absolute hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 rounded">
+        <ul className="absolute hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 text-sm rounded">
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Blood Donation</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">International Young School</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Emergency Services</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Child Protection</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Child Rights</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Women's Empowerment</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Climate Change & Human Rights Justice</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Advocacy & Justice</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Research</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Climate Action </Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Advocacy & Diplomacy for refugee rights</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Rohingya Biological Research </Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Training Workshops </Link></li>
         </ul>
       </li>
       {/* News, Media */}
@@ -84,20 +85,20 @@ const Navbar = () => {
           News & Media <ChevronDown className="ml-1 group-hover:hidden" />
           <ChevronUp className="ml-1 hidden group-hover:block" />
         </button>
-        <ul className="absolute hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 rounded">
+        <ul className="absolute text-sm hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 rounded">
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Latest News </Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Press Releases </Link></li>
           <li><Link href="/photos-gallery" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Photos Gallery</Link></li>
         </ul>
       </li>
-     <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
+      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
     </>
   );
 
   const mobileLinks = (
     <>
       <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Home</Link></li>
-
+      {/* About */}
       <li className="relative">
         <button
           onClick={() => setAboutOpen(!aboutOpen)}
@@ -108,9 +109,8 @@ const Navbar = () => {
           {aboutOpen ? <ChevronUp /> : <ChevronDown />}
         </button>
         <ul
-          className={`flex flex-col mt-2 bg-gray-100 rounded overflow-hidden transition-all duration-200 ${
-            aboutOpen ? "max-h-96" : "max-h-0"
-          }`}
+          className={`flex flex-col mt-2 bg-gray-100 rounded overflow-hidden transition-all duration-200 ${aboutOpen ? "max-h-96" : "max-h-0"
+            }`}
         >
           <li><Link href="/who-we-are" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Who We Are</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Leadership</Link></li>
@@ -119,6 +119,7 @@ const Navbar = () => {
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Annual Reports</Link></li>
         </ul>
       </li>
+      {/* Programs */}
       <li className="relative">
         <button
           onClick={() => setProgramsOpen(!programsOpen)}
@@ -129,18 +130,18 @@ const Navbar = () => {
           {programsOpen ? <ChevronUp /> : <ChevronDown />}
         </button>
         <ul
-          className={`flex flex-col mt-2 bg-gray-100 rounded overflow-hidden transition-all duration-200 ${
-            programsOpen ? "max-h-96" : "max-h-0"
-          }`}
+          className={`flex flex-col mt-2 bg-gray-100 rounded overflow-hidden transition-all duration-200 ${programsOpen ? "max-h-96" : "max-h-0"
+            }`}
         >
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100"> Blood Donation</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">International Young School</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Emergency Services</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Child Protection</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Child Rights</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Women's Empowerment</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Climate Change & Human Rights Justice</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Advocacy & Justice</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Research</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Climate Action </Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Advocacy & Diplomacy for Refugee Rights </Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Rohingya Biological Research</Link></li>
+          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Training Workshops </Link></li>
         </ul>
       </li>
       <li className="relative">
@@ -153,9 +154,8 @@ const Navbar = () => {
           {newsOpen ? <ChevronUp /> : <ChevronDown />}
         </button>
         <ul
-          className={`flex flex-col mt-2 bg-gray-100 rounded overflow-hidden transition-all duration-200 ${
-            newsOpen ? "max-h-96" : "max-h-0"
-          }`}
+          className={`flex flex-col mt-2 bg-gray-100 rounded overflow-hidden transition-all duration-200 ${newsOpen ? "max-h-96" : "max-h-0"
+            }`}
         >
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100"> Latest News</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Press Releases</Link></li>
@@ -213,9 +213,8 @@ const Navbar = () => {
       {/* Drawer */}
       <div
         ref={drawerRef}
-        className={`fixed top-0 left-0 h-full w-80 bg-white shadow-lg z-50 transform ${
-          drawerOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out`}
+        className={`fixed top-0 left-0 h-full w-80 bg-white shadow-lg z-50 transform overflow-y-auto overscroll-contain ${drawerOpen ? "translate-x-0" : "-translate-x-full"
+          } transition-transform duration-300 ease-in-out`}
       >
         <div className="flex justify-between items-center p-4 border-b border-gray-200">
           <div className="h-20">

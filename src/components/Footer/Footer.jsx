@@ -11,11 +11,8 @@ export default function Footer() {
     { name: "Women's Empowerment", href: "womens-empowerment" },
     { name: "Climate Action", href: "climate-action" },
     { name: "Advocacy & Diplomacy for Refugee Rights", href: "advocacy-diplomacy-for-refugee-rights" },
-    { name: "Humanitarian Awards Summit", href: "research" },
-    { name: "Human Rights Campaign", href: "research" },
     { name: "Rohingya Biological Research", href: "rohingya-biological-research" },
     { name: "Training Workshops", href: "training-workshops" },
-
   ]
 
   const quickLinks = [
@@ -30,9 +27,12 @@ export default function Footer() {
   const resources = [
     { name: 'Latest News', href: 'news' },
     { name: 'Press Releases', href: '#' },
+    { name: "Humanitarian Awards Summit", href: "research" },
+    { name: "Human Rights Campaign", href: "research" },
     { name: 'Photos Gallery', href: '#' },
     { name: 'Partner With Us', href: '#' },
-    { name: 'Volunteer', href: '#' }
+    { name: 'Volunteer', href: '#' },
+
   ]
 
   return (
