@@ -164,7 +164,9 @@ export default function Footer() {
               <a href="#" className="hover:text-emerald-500 transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-emerald-500 transition-colors">Terms of Service</a>
               <a href="#" className="hover:text-emerald-500 transition-colors">Cookie Policy</a>
+
             </div>
+              <a href="https://www.visionaryyouthlabs.com" className="hover:text-emerald-500 transition-colors">Developed by Visionary Youth Labs</a>
           </div>
 
           {/* Social Media */}
@@ -208,6 +210,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
+
         </div>
       </div>
 
