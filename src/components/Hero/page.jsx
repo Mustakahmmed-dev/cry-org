@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section
             className="relative h-[90vh] w-full bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/images/RohingyaHero.jpg')" }}
+            style={{ backgroundImage: "url('/images/RohingyaHero.png')" }}
         >
             {/* Dark overlay */}
             <div className="absolute inset-0 bg-black/60"></div>

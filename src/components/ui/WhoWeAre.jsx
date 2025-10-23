@@ -48,24 +48,24 @@ const WhoWeAre = () => {
                 </p>
               </div>
               <div className="mt-8 flex gap-4">
-                <button 
+                <a href="become-a-volunteer" 
                   className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors"
                   data-testid="get-involved-btn"
                 >
                   Get Involved
-                </button>
-                <button 
+                </a>
+                <a href="/our-programs" 
                   className="px-6 py-3 border-2 border-green-600 text-green-600 hover:bg-green-50 font-semibold rounded-lg transition-colors"
                   data-testid="learn-more-btn"
                 >
-                  Learn More
-                </button>
+                  See our programs
+                </a>
               </div>
             </div>
             <div className="order-1 md:order-2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/who-we-are-hero.jpg" 
+                  src="/images/GroupGentle.png" 
                   alt="Our Story" 
                   className="w-full h-[400px] object-cover"
                   data-testid="story-image"
@@ -116,7 +116,7 @@ const WhoWeAre = () => {
             <div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/mission.jpg" 
+                  src="/images/MissionChildren.jpg" 
                   alt="Our Mission" 
                   className="w-full h-[450px] object-cover"
                   data-testid="mission-image"
@@ -234,7 +234,7 @@ const WhoWeAre = () => {
             <div className="order-1 md:order-2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/vision.jpg" 
+                  src="/images/VissionGroupPhoto.jpg" 
                   alt="Our Vision" 
                   className="w-full h-[450px] object-cover"
                   data-testid="vision-image"
@@ -311,18 +311,18 @@ const WhoWeAre = () => {
             Your support can transform lives.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
+            <a href="donate-us" 
               className="px-8 py-3 bg-white text-green-600 hover:bg-gray-100 font-semibold text-lg rounded-lg transition-colors shadow-lg"
               data-testid="donate-now-btn"
             >
               Donate Now
-            </button>
-            <button 
+            </a>
+            <a href="become-a-volunteer" 
               className="px-8 py-3 border-2 border-white text-white hover:bg-white/10 font-semibold text-lg rounded-lg transition-colors"
               data-testid="become-volunteer-btn"
             >
               Become a Volunteer
-            </button>
+            </a>
           </div>
         </div>
       </section>
