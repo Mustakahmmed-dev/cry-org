@@ -4,11 +4,11 @@ import { X } from "lucide-react";
 
 const GallerySection = () => {
     const images = [
-        "/images/RohingyaHero.jpg",
-        "/logo.jpeg",
+        "/images/RohingyaHero.png",
+        "/images/bloodDonation.jpg",
         "/images/CryVolunteers.jpg",
-        "/images/CryVolunteers.jpg",
-        "/images/CryVolunteers.jpg",
+        "/images/GroupGentle.png",
+        "/images/educationTeaching.jpg",
     ];
 
     const [selectedImage, setSelectedImage] = useState(null);

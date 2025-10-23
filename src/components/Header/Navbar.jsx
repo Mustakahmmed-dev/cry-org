@@ -87,7 +87,7 @@ const Navbar = () => {
         <ul className="absolute hidden group-hover:flex flex-col w-72 py-3 bg-gray-700 text-gray-200 z-50 rounded">
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Latest News </Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Press Releases </Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Photos Gallery</Link></li>
+          <li><Link href="/photos-gallery" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Photos Gallery</Link></li>
         </ul>
       </li>
      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
@@ -159,7 +159,7 @@ const Navbar = () => {
         >
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100"> Latest News</Link></li>
           <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Press Releases</Link></li>
-          <li><Link href="/" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Photos Gallery</Link></li>
+          <li><Link href="/photos-gallery" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-100">Photos Gallery</Link></li>
         </ul>
       </li>
       <li><Link href="/contact" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
