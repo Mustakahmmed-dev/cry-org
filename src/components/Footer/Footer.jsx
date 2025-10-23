@@ -7,11 +7,14 @@ export default function Footer() {
     { name: "Blood Donation", href: "blood-donation" },
     { name: "International Young School", href: "international-young-school" },
     { name: "Emergency Services", href: "emergency-services" },
-    { name: "Child Protection", href: "child-protection" },
-    { name: "Women's Empowerment", href: "womens-rights" },
-    { name: "Climate Change & Human Rights Justice", href: "climate-change-human-rights-justice" },
-    { name: "Advocacy & Justice", href: "advocacy-justice" },
-    { name: "Research", href: "research" }
+    { name: "Child Rights", href: "child-rights" },
+    { name: "Women's Empowerment", href: "womens-empowerment" },
+    { name: "Climate Action", href: "climate-action" },
+    { name: "Advocacy & Diplomacy for Refugee Rights", href: "advocacy-diplomacy-for-refugee-rights" },
+    { name: "Humanitarian Awards Summit", href: "research" },
+    { name: "Human Rights Campaign", href: "research" },
+    { name: "Rohingya Biological Research", href: "rohingya-biological-research" },
+    { name: "Training Workshops", href: "training-workshops" },
 
   ]
 
