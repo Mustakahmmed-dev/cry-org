@@ -19,8 +19,7 @@ const AboutSection = () => {
                         About <span className="text-[#058610]">Comrades of Rohingya Youth</span>
                     </h2>
                     <p className="text-gray-700 leading-relaxed">
-                        Comrades of Rohingya Youth (CRY) is a community-based organization founded by Rohingya youth, committed to advancing education, advocacy, and humanitarian service. We work to restore hope, uphold dignity, and create lasting opportunities for displaced Rohingya families around the world.
-                    </p>
+                        Comrades of Rohingya Youth (CRY) is a vibrant, youth-led organization founded on January 1, 2021, dedicated to defending and advancing the fundamental human rights of the Rohingya people and other marginalized ethnic communities in Myanmar. As a non-profit and non-governmental organization, CRY drives meaningful social change through powerful advocacy, transformative capacity building, and inclusive community engagement.                    </p>
                     <a href="/who-we-are" className="bg-[#058610] text-white px-6 py-3 rounded-md hover:bg-black transition-all">
                         Read More
                     </a>
