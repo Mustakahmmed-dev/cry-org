@@ -17,9 +17,7 @@ const Hero = () => {
                         Comrades of Rohingya Youth
                     </h1>
                     <p className="text-gray-200 text-sm md:text-lg mb-8">
-                        Working together to uplift Rohingya youth through education,
-                        leadership, and community development. Building a brighter future,
-                        one step at a time.
+                        Comrades of Rohingya Youth (CRY) is a Rohingya-led organization dedicated to justice, education, and empowerment. We nurture young leaders, defend human rights, and build a peaceful future where every Rohingya can live with dignity, opportunity, and hope for tomorrow.
                     </p>
 
                     <div className="flex flex-wrap gap-4">

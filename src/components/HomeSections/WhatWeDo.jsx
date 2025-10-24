@@ -7,9 +7,7 @@ const WhatWeDo = () => {
                     What We <span className="text-[#058610]">Do</span>
                 </h2>
                 <p className="text-gray-700 max-w-2xl mx-auto mb-10">
-                    We work across multiple areas to empower the Rohingya community through
-                    education, rights protection, and community-based initiatives that bring
-                    real impact to everyday lives.
+                    At Comrades of Rohingya Youth (CRY), we empower the Rohingya community through education, advocacy, and humanitarian programs in youth leadership, women’s empowerment, child protection, and refugee rights.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
