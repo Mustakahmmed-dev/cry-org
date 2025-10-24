@@ -26,7 +26,7 @@ const ImpactsSection = () => {
         </h2>
         <p className="text-gray-300 max-w-2xl mx-auto mb-12">
           Through dedication and collective action, Comrades of Rohingya Youth has reached
-          thousands of lives across education, health, and community support.
+          hundreds of lives across education, advocacy and community support.
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10">

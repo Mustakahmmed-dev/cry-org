@@ -4,11 +4,10 @@ const OngoingProjects = () => {
         <section className="bg-white py-16">
             <div className="max-w-7xl mx-auto px-4 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    Ongoing <span className="text-[#058610]">Projects</span>
+                    Ongoing <span className="text-[#058610]">Programs</span>
                 </h2>
                 <p className="text-gray-700 max-w-2xl mx-auto mb-10">
-                    Our current projects focus on improving lives through education, health,
-                    and youth empowerment programs led by Rohingya volunteers.
+                    Our ongoing projects aim to strengthen the Rohingya community through education, research, and advocacy. Led by dedicated youth volunteers, we work to promote learning, protect rights, and build a more resilient and hopeful future.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -17,16 +16,15 @@ const OngoingProjects = () => {
                     <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
                         <div className="overflow-hidden">
                             <img
-                                src="/images/educationForAll.jpg"
+                                src="/images/biologicalResearch.jpg"
                                 alt="Education for All"
                                 className="w-full h-56 object-cover hover:scale-105 transition-transform duration-300"
                             />
                         </div>
                         <div className="p-6 text-left">
-                            <h3 className="text-xl font-semibold mb-2">Education for All</h3>
+                            <h3 className="text-xl font-semibold mb-2">Rohingya Biological Research</h3>
                             <p className="text-gray-600 mb-4">
-                                Providing access to non-formal education for children and youth in
-                                the camps through community-led initiatives.
+                                Documenting and studying Rohingya heritage, health, and resilience to preserve community identity and promote evidence-based development.
                             </p>
                             <a
                                 href="#"
@@ -41,16 +39,15 @@ const OngoingProjects = () => {
                     <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
                         <div className="overflow-hidden">
                             <img
-                                src="/images/healthHygiene.jpg"
+                                src="/images/missionChildren.jpg"
                                 alt="Health & Hygiene"
                                 className="w-full h-56 object-cover hover:scale-105 transition-transform duration-300"
                             />
                         </div>
                         <div className="p-6 text-left">
-                            <h3 className="text-xl font-semibold mb-2">Health & Hygiene</h3>
+                            <h3 className="text-xl font-semibold mb-2">Education for Children </h3>
                             <p className="text-gray-600 mb-4">
-                                Promoting hygiene awareness and distributing essential supplies to
-                                ensure community well-being.
+                               Providing learning opportunities for displaced Rohingya children to ensure access to education, literacy, and a brighter future.
                             </p>
                             <a
                                 href="#"
@@ -65,16 +62,15 @@ const OngoingProjects = () => {
                     <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
                         <div className="overflow-hidden">
                             <img
-                                src="/images/youthEmpowerment.jpg"
+                                src="/images/vissionGroupPhoto.jpg"
                                 alt="Youth Empowerment"
                                 className="w-full h-56 object-cover hover:scale-105 transition-transform duration-300"
                             />
                         </div>
                         <div className="p-6 text-left">
-                            <h3 className="text-xl font-semibold mb-2">Youth Empowerment</h3>
+                            <h3 className="text-xl font-semibold mb-2">Advocacy & Diplomacy for Refugee Rights </h3>
                             <p className="text-gray-600 mb-4">
-                                Building skills and leadership opportunities for Rohingya youth to
-                                take part in community-driven change.
+                                Engaging governments, NGOs, and international bodies to defend refugee rights, promote justice, and amplify Rohingya voices globally.
                             </p>
                             <a
                                 href="#"
@@ -86,6 +82,7 @@ const OngoingProjects = () => {
                     </div>
 
                 </div>
+                <a href="/programs" className="mt-4 block text-emerald-500 font-semibold">See all programs</a>
             </div>
         </section>
 
