@@ -22,6 +22,7 @@ export default function Footer() {
     { name: 'Leadership', href: 'leadership' },
     { name: 'Global Presence', href: 'global-presences' },
     { name: 'Annual Reports', href: '#' },
+    { name: 'Contact ', href: '/contact' },
   ]
 
   const resources = [

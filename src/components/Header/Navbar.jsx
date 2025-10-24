@@ -91,7 +91,7 @@ const Navbar = () => {
           <li><Link href="/photos-gallery" className="py-2 px-4 block hover:bg-[#058610] hover:text-gray-200">Photos Gallery</Link></li>
         </ul>
       </li>
-      <li><Link href="/" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
+      <li><Link href="/contact" className="hover:text-red-500 hover:font-semibold">Contact</Link></li>
     </>
   );
 
