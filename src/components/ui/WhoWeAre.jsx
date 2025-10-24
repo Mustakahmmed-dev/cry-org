@@ -216,56 +216,95 @@ const WhoWeAre = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Our Core Values</h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              The principles that guide our work and define who we are
-            </p>
+              To build a just, safe, and respectful community that empowers Rohingya youth to lead with honesty, courage, and compassion.      </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg">
-              <div className="p-6">
-                <div className="bg-green-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-3">Compassion</h3>
-                <p className="text-gray-300">
-                  We lead with empathy and understanding, recognizing the dignity and worth
-                  of every individual we serve.
-                </p>
+
+          <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-8">
+            {/* Justice */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg p-6">
+              <div className="bg-red-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                ⚖️
               </div>
+              <h3 className="text-xl font-bold mb-3">Justice</h3>
+              <p className="text-gray-300">
+                Treat everyone fairly and speak against any form of abuse or discrimination.        </p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg">
-              <div className="p-6">
-                <div className="bg-red-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path d="M17 9V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2m2 4h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2zm7-5a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" strokeWidth="2" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-3">Integrity</h3>
-                <p className="text-gray-300">
-                  We maintain the highest standards of transparency, accountability, and
-                  ethical conduct in all our operations.
-                </p>
+
+            {/* Empowerment */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg p-6">
+              <div className="bg-green-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                💪
               </div>
+              <h3 className="text-xl font-bold mb-3">Empowerment</h3>
+              <p className="text-gray-300">
+                Support youth leadership, learning, and equal participation in every activity.              </p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg">
-              <div className="p-6">
-                <div className="bg-emerald-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <circle cx="12" cy="12" r="10" strokeWidth="2" />
-                    <circle cx="12" cy="12" r="4" strokeWidth="2" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-3">Excellence</h3>
-                <p className="text-gray-300">
-                  We strive for excellence in everything we do, continuously improving
-                  our approaches to maximize impact.
-                </p>
+
+            {/* Unity */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg p-6">
+              <div className="bg-blue-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                🤝
               </div>
+              <h3 className="text-xl font-bold mb-3">Unity</h3>
+              <p className="text-gray-300">
+                Work together in peace and respect, solving problems through dialogue and understanding.              </p>
+            </div>
+
+            {/* Integrity */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg p-6">
+              <div className="bg-yellow-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                🕊️
+              </div>
+              <h3 className="text-xl font-bold mb-3">Integrity</h3>
+              <p className="text-gray-300">
+                Be honest, accountable, and transparent in all actions.
+              </p>
+            </div>
+
+            {/* Resilience */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg p-6">
+              <div className="bg-emerald-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                🌿
+              </div>
+              <h3 className="text-xl font-bold mb-3">Resilience</h3>
+              <p className="text-gray-300">
+                Stay strong in hardship, learn from challenges, and help each other.              </p>
+            </div>
+
+            {/* Sustainability */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg p-6">
+              <div className="bg-lime-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                🌏
+              </div>
+              <h3 className="text-xl font-bold mb-3">Sustainability</h3>
+              <p className="text-gray-300">
+                Use resources wisely and protect our environment and community for the future.              </p>
+            </div>
+
+            {/* Diversity */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg p-6">
+              <div className="bg-pink-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                🌈
+              </div>
+              <h3 className="text-xl font-bold mb-3">Diversity</h3>
+              <p className="text-gray-300">
+                Respect all people regardless of ethnicity, religion, or gender. Inclusion makes us stronger.              </p>
+            </div>
+
+            {/* Humanity */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg p-6">
+              <div className="bg-orange-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                ❤️
+              </div>
+              <h3 className="text-xl font-bold mb-3">Humanity</h3>
+              <p className="text-gray-300">
+                Show kindness, dignity, and compassion to everyone.
+                We Stand Together for Justice, Peace, and Dignity              </p>
             </div>
           </div>
         </div>
       </section>
+
 
       {/* Call to Action Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-green-600 to-emerald-600 text-white">
